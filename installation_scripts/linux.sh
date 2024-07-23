@@ -20,8 +20,8 @@ sudo apt install -y curl
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc                                                                  
 
-nvm install 20
-nvm use 20
+nvm install 20           // check it everytime
+nvm use 20          
 
 nvm install node
 nvm use node
@@ -69,3 +69,7 @@ sudo apt-get install -y ./docker-desktop-4.30.0-amd64.deb
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+rm -rf google-chrome-stable_current_amd64.deb
+rm -rf docker-desktop-4.30.0-amd64.deb
+rm -rf gocv 
