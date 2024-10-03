@@ -69,7 +69,3 @@ sudo apt-get install -y ./docker-desktop-4.30.0-amd64.deb
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-
-rm -rf google-chrome-stable_current_amd64.deb
-rm -rf docker-desktop-4.30.0-amd64.deb
-rm -rf gocv 
